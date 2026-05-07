@@ -1,6 +1,6 @@
 <?php
 // 1. Panggil file koneksi agar bisa akses database
-include 'koneksi.php';
+include '..koneksi/koneksi.php';
 
 // 2. Ambil semua data dari tabel 'posts', urutkan dari yang terbaru (id DESC)
 $query = "SELECT * FROM posts ORDER BY id DESC";
