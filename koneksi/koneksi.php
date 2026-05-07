@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "tugas_blogspot";
+$db   = "tugas_blog";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
